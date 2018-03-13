@@ -1,0 +1,17 @@
+.germany-flag {
+    width: 300px;
+    height: 200px;
+    border: 1px solid #070505;
+}
+.germany-line-top {
+    height: 66.6px;
+    background-color: #070505;
+}
+.germany-line-center {
+    height: 66.6px;
+    background-color: #e85e5a;
+}
+.germany-line-bottom {
+    height: 66.6px;
+    background-color: #ffce00;
+}

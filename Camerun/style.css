@@ -1,0 +1,75 @@
+.camerun-flag {
+    margin-top: 30px;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #070505;
+}
+.camerun-column-left {
+    float: left;
+    width: 100px;
+    height: 200px;
+    background-color: #007a5e;
+}
+.camerun-column-center {
+    width: 100px;
+    height: 200px;
+    background-color: #ce1126;
+    float: left;
+}
+.camerun-column-right {
+    width: 100px;
+    height: 200px;
+    background-color: #fcd116;
+    float: left;
+}
+.camerun-star-center {
+    margin: 90px auto 0;
+    width: 40px;
+}
+.camerun-star {
+    position: relative;
+    display: block;
+    color: #fcd116;
+    width: 0px;
+    height: 0px;
+    border-right:  20px solid transparent;
+    border-bottom: 14px  solid #fcd116;
+    border-left:   20px solid transparent;
+    -moz-transform:    rotate(35deg);
+    -webkit-transform: rotate(35deg);
+    -ms-transform:     rotate(35deg);
+    -o-transform:      rotate(35deg);
+}
+.camerun-star:before {
+    border-bottom: 16px solid #fcd116;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -9px;
+    left: -13px;
+    display: block;
+    content: '';
+    -webkit-transform: rotate(-35deg);
+    -moz-transform:    rotate(-35deg);
+    -ms-transform:     rotate(-35deg);
+    -o-transform:      rotate(-35deg);
+}
+.camerun-star:after {
+    position: absolute;
+    display: block;
+    color: #fcd116;
+    top: 0.6px;
+    left: -21px;
+    width: 0px;
+    height: 0px;
+    border-right: 20px solid transparent;
+    border-bottom: 14px solid #fcd116;
+    border-left: 20px solid transparent;
+    -webkit-transform: rotate(-70deg);
+    -moz-transform:    rotate(-70deg);
+    -ms-transform:     rotate(-70deg);
+    -o-transform:      rotate(-70deg);
+    content: '';
+}

@@ -1,0 +1,24 @@
+@import "../Germany/style.css";
+@import "../Camerun/style.css";
+@import "../Denmark/style.css";
+@import "../Greece/style.css";
+@import "../Chile/style.css";
+@import "../Argentina/style.css";
+@import "../Salvador/style.css";
+@import "../Niger/style.css";
+@import "../Thailand/style.css";
+.name-country {
+    visibility: hidden;
+    font-size: 20px;
+    width: 300px;
+    text-align: center;
+}
+.flag:hover + .name-country {
+    display: block;
+    visibility: visible;
+}
+.couple-names-countries {
+    font-size: 20px;
+    width: 300px;
+    text-align: center;
+}

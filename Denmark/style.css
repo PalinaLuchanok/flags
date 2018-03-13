@@ -1,0 +1,17 @@
+.denmark-flag {
+    margin-top: 30px;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #070505;
+    background-color: #c60c30;
+}
+.denmark-column {
+    margin-left: 90px;
+    width: 30px;
+    height: 87.5px;
+    background-color: #ffffff;
+}
+.denmark-line {
+    height: 25px;
+    background-color: #ffffff;
+}

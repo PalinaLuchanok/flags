@@ -1,0 +1,24 @@
+.greece-flag {
+    margin-top: 30px;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #070505;
+    background: linear-gradient(#0d5eaf 50%, transparent 50%);
+    background-size: 68px;
+    background-color: #ffffff;
+}
+.greece-cross {
+    width: 33%;
+    height: 111px;
+    background-color: #0d5eaf;
+}
+.greece-column {
+    margin-left: 37.5px;
+    width: 22.2px;
+    height: 45.5px;
+    background-color: #ffffff;
+}
+.greece-line-short {
+    height: 22.2px;
+    background-color: #ffffff;
+}

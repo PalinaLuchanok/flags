@@ -1,0 +1,37 @@
+.niger-flag {
+    margin-top: 30px;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #070505;
+}
+.niger-line-top {
+    height: 67px;
+    background-color: #e05206;
+}
+.niger-line-center {
+    height: 54px;
+    background-color: #ffffff;
+}
+.niger-circle {
+    border-radius: 50%;
+    height:48px;
+    width:48px;
+    background:#e05206;
+    margin: 6px auto 3px;
+}
+.niger-line-bottom {
+    height: 73px;
+    background-color: #0db02b;
+}
+.niger-flag:hover .niger-line-top {
+    background-color: #cd2a3e;
+}
+.niger-flag:hover .niger-line-center {
+    height: 60px;
+}
+.niger-flag:hover .niger-circle {
+    display: none;
+}
+.niger-flag:hover .niger-line-bottom {
+    background-color: #436f4d;
+}

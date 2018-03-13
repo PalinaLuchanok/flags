@@ -1,0 +1,24 @@
+.thailand-flag {
+    margin-top: 30px;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #070505;
+}
+.thailand-line-red {
+    height: 33.3px;
+    background-color: #de1118;
+}
+.thailand-line-white {
+    height: 33.3px;
+    background-color: #ffffff;
+}
+.thailand-line-blue {
+    height: 66.6px;
+    background-color: #00237d;
+}
+.thailand-flag:hover .thailand-line-red {
+    background-color: #002b7f;
+}
+.thailand-flag:hover .thailand-line-blue {
+    background-color: #ce1126;
+}

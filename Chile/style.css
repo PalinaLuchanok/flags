@@ -1,0 +1,66 @@
+.chile-flag {
+    margin-top: 30px;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #070505;
+    background: linear-gradient(#ffffff 50%, transparent 50%);
+    background-size: 300px;
+    background-color: #d52b1e;
+}
+.chile-square {
+    width: 100px;
+    height: 100px;
+    background-color: #0039a6;
+}
+.chile-star-center {
+    margin-left: 30px;
+    margin-top: 40px;
+    position: absolute;
+}
+.chile-star {
+    position: relative;
+    display: block;
+    color: #ffffff;
+    width: 0px;
+    height: 0px;
+    border-right:  20px solid transparent;
+    border-bottom: 14px  solid #ffffff;
+    border-left:   20px solid transparent;
+    -moz-transform:    rotate(35deg);
+    -webkit-transform: rotate(35deg);
+    -ms-transform:     rotate(35deg);
+    -o-transform:      rotate(35deg);
+}
+.chile-star:before {
+    border-bottom: 16px solid #ffffff;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -9px;
+    left: -13px;
+    display: block;
+    content: '';
+    -webkit-transform: rotate(-35deg);
+    -moz-transform:    rotate(-35deg);
+    -ms-transform:     rotate(-35deg);
+    -o-transform:      rotate(-35deg);
+}
+.chile-star:after {
+    position: absolute;
+    display: block;
+    color: #ffffff;
+    top: 0.6px;
+    left: -21px;
+    width: 0px;
+    height: 0px;
+    border-right: 20px solid transparent;
+    border-bottom: 14px solid #ffffff;
+    border-left: 20px solid transparent;
+    -webkit-transform: rotate(-70deg);
+    -moz-transform:    rotate(-70deg);
+    -ms-transform:     rotate(-70deg);
+    -o-transform:      rotate(-70deg);
+    content: '';
+}
